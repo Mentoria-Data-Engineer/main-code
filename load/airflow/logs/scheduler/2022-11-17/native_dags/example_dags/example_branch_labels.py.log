@@ -1,0 +1,25 @@
+[2022-11-16 22:19:01,426] {processor.py:153} INFO - Started process (PID=10747) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:19:01,427] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-11-16 22:19:01,429] {logging_mixin.py:115} INFO - [2022-11-16 22:19:01,428] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:19:01,438] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:19:02,066] {logging_mixin.py:115} INFO - [2022-11-16 22:19:02,066] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2022-11-16 22:19:02,409] {logging_mixin.py:115} INFO - [2022-11-16 22:19:02,409] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2022-11-16 22:19:02,639] {logging_mixin.py:115} INFO - [2022-11-16 22:19:02,638] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2022-11-16 22:19:02,639] {logging_mixin.py:115} INFO - [2022-11-16 22:19:02,639] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:19:02,681] {logging_mixin.py:115} INFO - [2022-11-16 22:19:02,681] {dag.py:2398} INFO - Creating ORM DAG for example_branch_labels
+[2022-11-16 22:19:02,718] {logging_mixin.py:115} INFO - [2022-11-16 22:19:02,717] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 22:19:03,015] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 1.595 seconds
+[2022-11-16 22:21:11,433] {processor.py:153} INFO - Started process (PID=10965) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:21:11,434] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-11-16 22:21:11,435] {logging_mixin.py:115} INFO - [2022-11-16 22:21:11,435] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:21:11,460] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:21:11,482] {logging_mixin.py:115} INFO - [2022-11-16 22:21:11,482] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:21:11,515] {logging_mixin.py:115} INFO - [2022-11-16 22:21:11,514] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 22:21:11,746] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.317 seconds
+[2022-11-16 22:22:02,332] {processor.py:153} INFO - Started process (PID=11094) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:22:02,377] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-11-16 22:22:02,378] {logging_mixin.py:115} INFO - [2022-11-16 22:22:02,378] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:22:02,387] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-11-16 22:22:02,433] {logging_mixin.py:115} INFO - [2022-11-16 22:22:02,433] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:22:02,478] {logging_mixin.py:115} INFO - [2022-11-16 22:22:02,477] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 22:22:03,083] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.756 seconds

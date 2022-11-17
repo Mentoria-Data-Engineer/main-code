@@ -1,0 +1,32 @@
+[2022-11-16 22:18:12,360] {processor.py:153} INFO - Started process (PID=10716) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:18:12,362] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-16 22:18:12,365] {logging_mixin.py:115} INFO - [2022-11-16 22:18:12,364] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:18:12,424] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:18:13,234] {logging_mixin.py:115} INFO - [2022-11-16 22:18:13,234] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom
+[2022-11-16 22:18:13,455] {logging_mixin.py:115} INFO - [2022-11-16 22:18:13,454] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom
+[2022-11-16 22:18:13,774] {logging_mixin.py:115} INFO - [2022-11-16 22:18:13,773] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom
+[2022-11-16 22:18:13,775] {logging_mixin.py:115} INFO - [2022-11-16 22:18:13,775] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:18:13,855] {logging_mixin.py:115} INFO - [2022-11-16 22:18:13,855] {dag.py:2398} INFO - Creating ORM DAG for example_xcom
+[2022-11-16 22:18:14,208] {logging_mixin.py:115} INFO - [2022-11-16 22:18:14,208] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-16 22:18:14,640] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 2.296 seconds
+[2022-11-16 22:20:23,568] {processor.py:153} INFO - Started process (PID=10874) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:20:23,615] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-16 22:20:23,618] {logging_mixin.py:115} INFO - [2022-11-16 22:20:23,617] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:20:23,785] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:20:23,859] {logging_mixin.py:115} INFO - [2022-11-16 22:20:23,859] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:20:23,890] {logging_mixin.py:115} INFO - [2022-11-16 22:20:23,889] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-16 22:20:24,450] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.888 seconds
+[2022-11-16 22:21:08,145] {processor.py:153} INFO - Started process (PID=10958) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:21:08,170] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-16 22:21:08,171] {logging_mixin.py:115} INFO - [2022-11-16 22:21:08,171] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:21:08,207] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:21:08,228] {logging_mixin.py:115} INFO - [2022-11-16 22:21:08,228] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:21:08,255] {logging_mixin.py:115} INFO - [2022-11-16 22:21:08,255] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-16 22:21:08,547] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.413 seconds
+[2022-11-16 22:21:58,345] {processor.py:153} INFO - Started process (PID=11088) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:21:58,362] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-16 22:21:58,363] {logging_mixin.py:115} INFO - [2022-11-16 22:21:58,363] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:21:58,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-16 22:21:58,412] {logging_mixin.py:115} INFO - [2022-11-16 22:21:58,412] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:21:58,439] {logging_mixin.py:115} INFO - [2022-11-16 22:21:58,438] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-16 22:21:59,128] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.794 seconds

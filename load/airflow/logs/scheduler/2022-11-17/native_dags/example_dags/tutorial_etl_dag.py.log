@@ -1,0 +1,32 @@
+[2022-11-16 22:18:08,917] {processor.py:153} INFO - Started process (PID=10662) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:18:08,919] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-11-16 22:18:08,922] {logging_mixin.py:115} INFO - [2022-11-16 22:18:08,921] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:18:08,959] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:18:09,930] {logging_mixin.py:115} INFO - [2022-11-16 22:18:09,930] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial_etl_dag
+[2022-11-16 22:18:10,182] {logging_mixin.py:115} INFO - [2022-11-16 22:18:10,182] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial_etl_dag
+[2022-11-16 22:18:10,444] {logging_mixin.py:115} INFO - [2022-11-16 22:18:10,444] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial_etl_dag
+[2022-11-16 22:18:10,444] {logging_mixin.py:115} INFO - [2022-11-16 22:18:10,444] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:18:10,454] {logging_mixin.py:115} INFO - [2022-11-16 22:18:10,454] {dag.py:2398} INFO - Creating ORM DAG for tutorial_etl_dag
+[2022-11-16 22:18:10,466] {logging_mixin.py:115} INFO - [2022-11-16 22:18:10,466] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-11-16 22:18:10,818] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 1.914 seconds
+[2022-11-16 22:20:21,025] {processor.py:153} INFO - Started process (PID=10860) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:20:21,064] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-11-16 22:20:21,066] {logging_mixin.py:115} INFO - [2022-11-16 22:20:21,065] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:20:21,239] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:20:21,264] {logging_mixin.py:115} INFO - [2022-11-16 22:20:21,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:20:21,292] {logging_mixin.py:115} INFO - [2022-11-16 22:20:21,291] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-11-16 22:20:22,420] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 1.405 seconds
+[2022-11-16 22:21:07,420] {processor.py:153} INFO - Started process (PID=10956) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:21:07,421] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-11-16 22:21:07,422] {logging_mixin.py:115} INFO - [2022-11-16 22:21:07,422] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:21:07,432] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:21:07,452] {logging_mixin.py:115} INFO - [2022-11-16 22:21:07,452] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:21:07,483] {logging_mixin.py:115} INFO - [2022-11-16 22:21:07,482] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-11-16 22:21:07,758] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.343 seconds
+[2022-11-16 22:21:56,487] {processor.py:153} INFO - Started process (PID=11080) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:21:56,512] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-11-16 22:21:56,513] {logging_mixin.py:115} INFO - [2022-11-16 22:21:56,513] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:21:56,524] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-11-16 22:21:56,545] {logging_mixin.py:115} INFO - [2022-11-16 22:21:56,545] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:21:56,574] {logging_mixin.py:115} INFO - [2022-11-16 22:21:56,574] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-11-16 22:21:56,798] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.315 seconds
