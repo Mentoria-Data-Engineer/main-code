@@ -1,0 +1,375 @@
+[2022-11-16 22:17:40,481] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2022-11-16 22:17:40,482] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-11-16 22:17:40,482] {manager.py:482} INFO - Checking for new files in /home/nayara/Downloads/EngDados/PROJTOS/main-code/dags every 300 seconds
+[2022-11-16 22:17:40,483] {manager.py:690} INFO - Searching for files in /home/nayara/Downloads/EngDados/PROJTOS/main-code/dags
+[2022-11-16 22:17:40,630] {manager.py:693} INFO - There are 34 files in /home/nayara/Downloads/EngDados/PROJTOS/main-code/dags
+[2022-11-16 22:17:40,860] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-17T01:17:40
+================================================================================
+[2022-11-16 22:18:10,913] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.12s           2022-11-17T01:17:42
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-17T01:17:40
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  2.62s           2022-11-17T01:17:53
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  2.42s           2022-11-17T01:17:57
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.81s           2022-11-17T01:18:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  2.12s           2022-11-17T01:18:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  2.52s           2022-11-17T01:18:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  2.02s           2022-11-17T01:18:10
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  6.93s           2022-11-17T01:17:50
+================================================================================
+[2022-11-16 22:18:41,687] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2022-11-17T01:18:38
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.12s           2022-11-17T01:17:42
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-17T01:17:40
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  2.62s           2022-11-17T01:17:53
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  2.42s           2022-11-17T01:17:57
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.72s           2022-11-17T01:18:24
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.81s           2022-11-17T01:18:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  2.12s           2022-11-17T01:18:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  2.52s           2022-11-17T01:18:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  2.13s           2022-11-17T01:18:28
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  2.02s           2022-11-17T01:18:31
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  2.02s           2022-11-17T01:18:10
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  2.42s           2022-11-17T01:18:14
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.82s           2022-11-17T01:18:34
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  2.02s           2022-11-17T01:18:37
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  2.45s           2022-11-17T01:18:18
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.92s           2022-11-17T01:18:21
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  2.12s           2022-11-17T01:18:41
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  6.93s           2022-11-17T01:17:50
+================================================================================
+[2022-11-16 22:19:12,351] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2022-11-17T01:19:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2022-11-17T01:18:38
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.12s           2022-11-17T01:17:42
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-17T01:17:40
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.62s           2022-11-17T01:18:49
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.81s           2022-11-17T01:18:53
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  2.62s           2022-11-17T01:17:53
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  2.42s           2022-11-17T01:17:57
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.72s           2022-11-17T01:18:24
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.81s           2022-11-17T01:18:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.82s           2022-11-17T01:19:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  2.12s           2022-11-17T01:18:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  2.52s           2022-11-17T01:18:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.73s           2022-11-17T01:19:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  2.13s           2022-11-17T01:18:28
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  2.02s           2022-11-17T01:18:31
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.71s           2022-11-17T01:19:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.91s           2022-11-17T01:19:09
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  2.02s           2022-11-17T01:18:10
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  2.42s           2022-11-17T01:18:14
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.82s           2022-11-17T01:18:34
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  2.02s           2022-11-17T01:18:37
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.61s           2022-11-17T01:19:12
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  2.45s           2022-11-17T01:18:18
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.92s           2022-11-17T01:18:21
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  2.12s           2022-11-17T01:18:41
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.61s           2022-11-17T01:18:43
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  6.93s           2022-11-17T01:17:50
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  3.12s           2022-11-17T01:18:57
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.92s           2022-11-17T01:18:47
+================================================================================
+[2022-11-16 22:20:04,247] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2022-11-17T01:19:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2022-11-17T01:18:38
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.31s           2022-11-17T01:19:30
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.21s           2022-11-17T01:19:28
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  2.82s           2022-11-17T01:19:22
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.43s           2022-11-17T01:19:27
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.62s           2022-11-17T01:18:49
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.81s           2022-11-17T01:18:53
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.01s           2022-11-17T01:19:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  28.59s          2022-11-17T01:20:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.72s           2022-11-17T01:18:24
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.81s           2022-11-17T01:18:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.82s           2022-11-17T01:19:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  2.12s           2022-11-17T01:18:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  2.52s           2022-11-17T01:18:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.73s           2022-11-17T01:19:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  2.13s           2022-11-17T01:18:28
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  2.02s           2022-11-17T01:18:31
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.71s           2022-11-17T01:19:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.91s           2022-11-17T01:19:09
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  2.02s           2022-11-17T01:18:10
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  2.42s           2022-11-17T01:18:14
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.82s           2022-11-17T01:18:34
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  2.02s           2022-11-17T01:18:37
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.61s           2022-11-17T01:19:12
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  2.45s           2022-11-17T01:18:18
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.92s           2022-11-17T01:18:21
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.83s           2022-11-17T01:19:15
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.81s           2022-11-17T01:19:18
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  2.12s           2022-11-17T01:18:41
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.61s           2022-11-17T01:18:43
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.61s           2022-11-17T01:19:31
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  3.12s           2022-11-17T01:18:57
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.92s           2022-11-17T01:18:47
+================================================================================
+[2022-11-16 22:20:36,210] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2022-11-17T01:19:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2022-11-17T01:18:38
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.31s           2022-11-17T01:19:30
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.21s           2022-11-17T01:19:28
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  2.82s           2022-11-17T01:19:22
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.43s           2022-11-17T01:19:27
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.62s           2022-11-17T01:18:49
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.81s           2022-11-17T01:18:53
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.01s           2022-11-17T01:19:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  28.59s          2022-11-17T01:20:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.81s           2022-11-17T01:20:30
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  7.03s           2022-11-17T01:20:12
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.82s           2022-11-17T01:19:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.91s           2022-11-17T01:20:16
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.31s           2022-11-17T01:20:19
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.73s           2022-11-17T01:19:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.92s           2022-11-17T01:20:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.21s           2022-11-17T01:20:36
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.71s           2022-11-17T01:19:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.91s           2022-11-17T01:19:09
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.52s           2022-11-17T01:20:22
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.92s           2022-11-17T01:20:24
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.82s           2022-11-17T01:18:34
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  2.02s           2022-11-17T01:18:37
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.61s           2022-11-17T01:19:12
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.91s           2022-11-17T01:20:25
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.91s           2022-11-17T01:20:28
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.83s           2022-11-17T01:19:15
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.81s           2022-11-17T01:19:18
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  2.12s           2022-11-17T01:18:41
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.61s           2022-11-17T01:18:43
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.61s           2022-11-17T01:19:31
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  3.12s           2022-11-17T01:18:57
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.92s           2022-11-17T01:18:47
+================================================================================
+[2022-11-16 22:21:06,265] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2022-11-17T01:19:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.41s           2022-11-17T01:20:41
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2022-11-17T01:20:56
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-17T01:20:55
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  2.82s           2022-11-17T01:19:22
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  3.43s           2022-11-17T01:19:27
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.81s           2022-11-17T01:20:51
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.43s           2022-11-17T01:20:52
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.40s           2022-11-17T01:20:59
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.71s           2022-11-17T01:21:01
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.81s           2022-11-17T01:20:30
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.41s           2022-11-17T01:21:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.82s           2022-11-17T01:19:00
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.41s           2022-11-17T01:21:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.51s           2022-11-17T01:21:06
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.73s           2022-11-17T01:19:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.92s           2022-11-17T01:20:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.21s           2022-11-17T01:20:36
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.71s           2022-11-17T01:19:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.91s           2022-11-17T01:19:09
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.52s           2022-11-17T01:20:22
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.92s           2022-11-17T01:20:24
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.11s           2022-11-17T01:20:38
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.71s           2022-11-17T01:20:39
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.61s           2022-11-17T01:19:12
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.91s           2022-11-17T01:20:25
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.91s           2022-11-17T01:20:28
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.83s           2022-11-17T01:19:15
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.81s           2022-11-17T01:19:18
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  2.02s           2022-11-17T01:20:44
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.01s           2022-11-17T01:20:46
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.51s           2022-11-17T01:20:58
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.42s           2022-11-17T01:20:54
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.61s           2022-11-17T01:20:49
+================================================================================
+[2022-11-16 22:21:36,644] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.31s           2022-11-17T01:21:13
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2022-11-17T01:21:35
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2022-11-17T01:20:56
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-17T01:20:55
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.71s           2022-11-17T01:21:22
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.41s           2022-11-17T01:21:23
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.81s           2022-11-17T01:20:51
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.43s           2022-11-17T01:20:52
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.40s           2022-11-17T01:20:59
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.71s           2022-11-17T01:21:01
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.41s           2022-11-17T01:21:27
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.41s           2022-11-17T01:21:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.51s           2022-11-17T01:21:10
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.41s           2022-11-17T01:21:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.51s           2022-11-17T01:21:06
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.41s           2022-11-17T01:21:11
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.41s           2022-11-17T01:21:29
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.82s           2022-11-17T01:21:31
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.41s           2022-11-17T01:21:14
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.42s           2022-11-17T01:21:15
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.41s           2022-11-17T01:21:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.51s           2022-11-17T01:21:08
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.41s           2022-11-17T01:21:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.41s           2022-11-17T01:21:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.31s           2022-11-17T01:21:17
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.41s           2022-11-17T01:21:25
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.41s           2022-11-17T01:21:26
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.51s           2022-11-17T01:21:19
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.51s           2022-11-17T01:21:20
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.42s           2022-11-17T01:21:36
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.01s           2022-11-17T01:20:46
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.51s           2022-11-17T01:20:58
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.42s           2022-11-17T01:20:54
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.61s           2022-11-17T01:20:49
+================================================================================
+[2022-11-16 22:22:07,042] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.31s           2022-11-17T01:22:04
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2022-11-17T01:21:35
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2022-11-17T01:21:44
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-17T01:21:44
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.71s           2022-11-17T01:21:22
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.41s           2022-11-17T01:21:23
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.41s           2022-11-17T01:21:41
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.31s           2022-11-17T01:21:41
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.91s           2022-11-17T01:21:48
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.93s           2022-11-17T01:21:50
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.41s           2022-11-17T01:21:27
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.81s           2022-11-17T01:21:52
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.51s           2022-11-17T01:22:01
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.50s           2022-11-17T01:21:54
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.61s           2022-11-17T01:21:55
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.81s           2022-11-17T01:22:03
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.41s           2022-11-17T01:21:29
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.82s           2022-11-17T01:21:31
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.41s           2022-11-17T01:21:14
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.42s           2022-11-17T01:21:15
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.41s           2022-11-17T01:21:56
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.91s           2022-11-17T01:21:59
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.41s           2022-11-17T01:21:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.41s           2022-11-17T01:21:33
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.31s           2022-11-17T01:21:17
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.01s           2022-11-17T01:22:07
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.41s           2022-11-17T01:21:26
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.51s           2022-11-17T01:21:19
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.51s           2022-11-17T01:21:20
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.42s           2022-11-17T01:21:36
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.41s           2022-11-17T01:21:38
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.51s           2022-11-17T01:21:46
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.51s           2022-11-17T01:21:43
+/home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.51s           2022-11-17T01:21:39
+================================================================================
+[2022-11-16 22:22:24,234] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15

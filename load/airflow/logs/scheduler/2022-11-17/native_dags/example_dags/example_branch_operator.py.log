@@ -1,0 +1,25 @@
+[2022-11-16 22:18:48,360] {processor.py:153} INFO - Started process (PID=10741) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:18:48,361] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-11-16 22:18:48,361] {logging_mixin.py:115} INFO - [2022-11-16 22:18:48,361] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:18:48,387] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:18:49,004] {logging_mixin.py:115} INFO - [2022-11-16 22:18:49,004] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_operator
+[2022-11-16 22:18:49,246] {logging_mixin.py:115} INFO - [2022-11-16 22:18:49,245] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_operator
+[2022-11-16 22:18:49,486] {logging_mixin.py:115} INFO - [2022-11-16 22:18:49,486] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_operator
+[2022-11-16 22:18:49,487] {logging_mixin.py:115} INFO - [2022-11-16 22:18:49,487] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:18:49,531] {logging_mixin.py:115} INFO - [2022-11-16 22:18:49,530] {dag.py:2398} INFO - Creating ORM DAG for example_branch_operator
+[2022-11-16 22:18:49,584] {logging_mixin.py:115} INFO - [2022-11-16 22:18:49,584] {dag.py:2927} INFO - Setting next_dagrun for example_branch_operator to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 22:18:49,948] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 1.594 seconds
+[2022-11-16 22:20:50,414] {processor.py:153} INFO - Started process (PID=10926) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:20:50,426] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-11-16 22:20:50,427] {logging_mixin.py:115} INFO - [2022-11-16 22:20:50,427] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:20:50,480] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:20:50,746] {logging_mixin.py:115} INFO - [2022-11-16 22:20:50,746] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:20:50,777] {logging_mixin.py:115} INFO - [2022-11-16 22:20:50,776] {dag.py:2927} INFO - Setting next_dagrun for example_branch_operator to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 22:20:51,197] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.787 seconds
+[2022-11-16 22:21:40,852] {processor.py:153} INFO - Started process (PID=11019) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:21:40,860] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-11-16 22:21:40,861] {logging_mixin.py:115} INFO - [2022-11-16 22:21:40,861] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:21:40,875] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-11-16 22:21:40,898] {logging_mixin.py:115} INFO - [2022-11-16 22:21:40,898] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:21:40,928] {logging_mixin.py:115} INFO - [2022-11-16 22:21:40,928] {dag.py:2927} INFO - Setting next_dagrun for example_branch_operator to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16 22:21:41,176] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.330 seconds

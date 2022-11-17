@@ -1,0 +1,25 @@
+[2022-11-16 22:19:10,765] {processor.py:153} INFO - Started process (PID=10756) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:19:10,767] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-16 22:19:10,768] {logging_mixin.py:115} INFO - [2022-11-16 22:19:10,768] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:19:10,790] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:19:11,376] {logging_mixin.py:115} INFO - [2022-11-16 22:19:11,375] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only
+[2022-11-16 22:19:11,738] {logging_mixin.py:115} INFO - [2022-11-16 22:19:11,737] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only
+[2022-11-16 22:19:11,944] {logging_mixin.py:115} INFO - [2022-11-16 22:19:11,943] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only
+[2022-11-16 22:19:11,944] {logging_mixin.py:115} INFO - [2022-11-16 22:19:11,944] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:19:11,961] {logging_mixin.py:115} INFO - [2022-11-16 22:19:11,960] {dag.py:2398} INFO - Creating ORM DAG for latest_only
+[2022-11-16 22:19:11,975] {logging_mixin.py:115} INFO - [2022-11-16 22:19:11,975] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-11-16T21:19:11.974967+00:00, run_after=2022-11-17T01:19:11.974967+00:00
+[2022-11-16 22:19:12,324] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 1.568 seconds
+[2022-11-16 22:21:17,468] {processor.py:153} INFO - Started process (PID=10978) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:21:17,469] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-16 22:21:17,470] {logging_mixin.py:115} INFO - [2022-11-16 22:21:17,470] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:21:17,478] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:21:17,500] {logging_mixin.py:115} INFO - [2022-11-16 22:21:17,500] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:21:17,532] {logging_mixin.py:115} INFO - [2022-11-16 22:21:17,532] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-11-16T21:21:17.531555+00:00, run_after=2022-11-17T01:21:17.531555+00:00
+[2022-11-16 22:21:17,742] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.277 seconds
+[2022-11-16 22:22:21,857] {processor.py:153} INFO - Started process (PID=11152) to work on /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:22:21,906] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-16 22:22:21,906] {logging_mixin.py:115} INFO - [2022-11-16 22:22:21,906] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:22:21,914] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-16 22:22:21,938] {logging_mixin.py:115} INFO - [2022-11-16 22:22:21,937] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-11-16 22:22:21,968] {logging_mixin.py:115} INFO - [2022-11-16 22:22:21,968] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-11-16T21:22:21.967749+00:00, run_after=2022-11-17T01:22:21.967749+00:00
+[2022-11-16 22:22:22,393] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/PROJTOS/main-code/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.544 seconds
