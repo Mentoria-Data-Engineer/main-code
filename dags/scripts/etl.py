@@ -69,5 +69,5 @@ if __name__ == '__main__':
     # Transforma os dados dos usuários
     transformed_users = transform_users(users)
 
-    path = '/Users/nayya/Downloads/ESTUDO/projetos/projetorescue/ingestao/airflow/dags/dados/'
+    path = 'C:/Users/nayya/Downloads/ESTUDO/projetos/main-code/airflow/dags/dados/'
     salvar_users(transformed_users, path)
