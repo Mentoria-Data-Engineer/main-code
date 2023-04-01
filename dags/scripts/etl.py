@@ -1,8 +1,6 @@
 import pandas as pd
 import requests
 import json
-import pandera as pa
-from pandera import Column, Check
 import datetime
 
 
@@ -48,29 +46,18 @@ def transform_users(user_details):
             'País': f"{user_details['location']['country']}",
             'Cidade': f"{user_details['location']['city']}"
         })
-
-    # Transforma a lista em um DataFrame
     df = pd.DataFrame(transformed_users)
-
-    # Transforma a coluna 'Genero'
     df['Genero'] = df['Genero'].replace({'male': 'homem', 'female': 'mulher'})
-
     return df
 
 def salvar_users(df, path):
-    # Obter a data atual
     today = datetime.date.today().strftime('%Y-%m-%d')
-    
-    # Adicionar a data ao nome do arquivo
     filename = f'user{today}.csv'
-    
-    # Salvar o arquivo
     df.to_csv(path + filename, index=False)
 
 
 if __name__ == '__main__':
 
-    # Faz o request para os  usuários
     url = f"{base_url_users}?limit={limit}"
     users = extract_users(url, app_id)
 
@@ -82,24 +69,5 @@ if __name__ == '__main__':
     # Transforma os dados dos usuários
     transformed_users = transform_users(users)
 
-    # #Validação dos dados 
-    # validate_data(transformed_users)
-    
-    
-     # Salva os dados em formato CSV
     path = '/Users/nayya/Downloads/ESTUDO/projetos/projetorescue/ingestao/airflow/dags/dados/'
-
     salvar_users(transformed_users, path)
-
-
-'''
-Fazer graficos com Idade, Região, Homem mulher 
-
-criar as dags e puxar a função de dentro do arquivo scrits/extracao.py
-
-extração de dados e transferir para formato parket
- - Salva os dados em formato Parquet
-    df.to_parquet("users.parquet")
-
-enviar o arquivo dessa extração para aws
-'''
