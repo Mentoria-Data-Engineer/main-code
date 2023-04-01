@@ -47,7 +47,7 @@ with DAG(
         task_id='salvar_users',
         python_callable=salvar_users,
         op_kwargs={'df': '{{ ti.xcom_pull(task_ids="salvar_users") }}',
-                'path': 'C:/Users/nayya/Downloads/ESTUDO/projetos/projetorescue/ingestao/airflow/dags/dados/'}
+                'path': '/Users/nayya/Downloads/ESTUDO/projetos/main-code/airflow/dags/dados/'}
     )
 
     t1 >> t2
