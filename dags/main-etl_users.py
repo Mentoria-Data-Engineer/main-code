@@ -8,6 +8,7 @@ from datetime import datetime
 
 
 
+
 default_args = {
     'start_date': datetime(year=2023, month=4, day=20)
 }
@@ -36,14 +37,17 @@ def transform_users(ti) -> None:
 def load_users(ti, **kwargs) -> None:
 
     execution_date = kwargs['execution_date']
-    date_string = execution_date.strftime('%d-%m-%Y')
-    path = f'C:\Users\nayya\Downloads\Estudo\projetos\projetorescue\ingestao\airflow\data\users-teste1{date_string}.csv'
+    data_atual = execution_date.strftime('%d-%m-%Y')
+    nome_arquivo = f'exemplo_{data_atual}.csv'
+    caminho_do_arquivo = r'data'
+    if not os.path.exists(caminho_do_arquivo):
+        os.makedirs(caminho_do_arquivo)
     
     users = ti.xcom_pull(key='transformed_users', task_ids=['transform_users'])
     users_df = pd.DataFrame(users[0])
-    
-    users_df.to_csv(path, index=None)
-
+    users_df.to_csv(os.path.join(caminho_do_arquivo, nome_arquivo))
+    print(f'O arquivo foi salvo em: {os.getcwd()}/{caminho_do_arquivo}')
+   
 
 with DAG(
     dag_id='etl_users',
