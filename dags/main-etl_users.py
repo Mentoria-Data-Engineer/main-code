@@ -5,12 +5,12 @@ import os
 from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-
-
+from airflow.operators.python import PythonOperator
+from airflow.hooks.S3_hook import S3Hook
 
 
 default_args = {
-    'start_date': datetime(year=2023, month=4, day=20)
+    'start_date': datetime(year=2023, month=5, day=10)
 }
 
 def extract_users(url: str, ti) -> None:
@@ -33,12 +33,11 @@ def transform_users(ti) -> None:
         })
     ti.xcom_push(key='transformed_users', value=transformed_users)
 
-
 def load_users(ti, **kwargs) -> None:
 
     execution_date = kwargs['execution_date']
     data_atual = execution_date.strftime('%d-%m-%Y')
-    nome_arquivo = f'exemplo_{data_atual}.csv'
+    nome_arquivo = f'dados-usuarios-{data_atual}.csv'
     caminho_do_arquivo = r'data'
     if not os.path.exists(caminho_do_arquivo):
         os.makedirs(caminho_do_arquivo)
@@ -47,7 +46,11 @@ def load_users(ti, **kwargs) -> None:
     users_df = pd.DataFrame(users[0])
     users_df.to_csv(os.path.join(caminho_do_arquivo, nome_arquivo))
     print(f'O arquivo foi salvo em: {os.getcwd()}/{caminho_do_arquivo}')
-   
+
+
+def upload_to_s3(filename: str, key: str, bucket_name: str) -> None:
+    hook = S3Hook('s3_conn')
+    hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
 
 with DAG(
     dag_id='etl_users',
@@ -62,7 +65,6 @@ with DAG(
         op_kwargs={'url': 'https://jsonplaceholder.typicode.com/users'}
     )
 
-
     task_transform_users = PythonOperator(
         task_id='transform_users',
         python_callable=transform_users
@@ -74,4 +76,15 @@ with DAG(
         provide_context=True
     )
 
-    task_extract_users >> task_transform_users >> task_load_users
+
+    task_upload_to_s3 = PythonOperator(
+        task_id='upload_to_s3',
+        python_callable=upload_to_s3,
+        op_kwargs={
+            'filename': f'/usr/local/airflow/data/dados-usuarios-{data_atual}.csv',
+            'key': f'dados-usuarios-{data_atual}.csv',
+            'bucket_name': 'dados-api-airflow'
+        }
+        )
+
+    task_extract_users >> task_transform_users >> task_load_users >> task_upload_to_s3
