@@ -1,1 +1,10 @@
 .env
+.envCLEAR
+
+airflow-data/
+logs/
+plugins/
+postgres-data
+__pycache__/
+
+passos-docker.txt
