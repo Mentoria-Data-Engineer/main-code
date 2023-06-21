@@ -5,14 +5,14 @@ from airflow.hooks.S3_hook import S3Hook
 from scripts.extract_transform_load_dummy import fetch_data, fetch_user_profile, save_profiles_to_csv, extract_user_data, transform_user_data, save_data_to_csv, upload_to_s3
 
 default_args = {
-    'start_date': datetime(year=2023, month=4, day=10)
+    'start_date': datetime(year=2023, month=3, day=20)
 }
 
 
 with DAG(
     dag_id='dummy_api_etl_scrips',
     default_args=default_args,
-    schedule_interval='@daily'
+    schedule_interval='0 9 * * 1-5'
 ) as dag:
 
     task_extract_user_data = PythonOperator(

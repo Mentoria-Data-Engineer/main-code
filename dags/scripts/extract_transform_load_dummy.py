@@ -56,7 +56,7 @@ def upload_to_s3(**kwargs) -> None:
     ti = kwargs['ti']
     current_date = ti.execution_date.strftime('%Y-%m-%d')
     filename = f"/home/nay/airflow-main/data/full_user_profiles_{current_date}.csv"
-    key = f"raw/users/full_user_profiles_{current_date}.csv"
+    key = f"raw/full_user_profiles_{current_date}.csv"
     bucket_name = 'dados-api-airflow'
     hook = S3Hook(aws_conn_id='s3_conn')
     hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
